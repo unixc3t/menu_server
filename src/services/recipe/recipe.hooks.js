@@ -1,11 +1,13 @@
 
 
+const process = require('../../hooks/process');
+
 module.exports = {
   before: {
     all: [],
     find: [],
     get: [],
-    create: [],
+    create: [process()],
     update: [],
     patch: [],
     remove: []
