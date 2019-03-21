@@ -111,4 +111,5 @@ $RECYCLE.BIN/
 lib/
 data/
 package-lock.json
+yarn.lock
 
